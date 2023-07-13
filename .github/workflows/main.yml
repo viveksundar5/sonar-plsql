@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: selfhosted
+    runs-on: windows
     steps:
       - uses: actions/checkout@v2
         with:
